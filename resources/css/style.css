@@ -2,7 +2,7 @@ body {
   font-family: Helvetica;
 }
 
-header, section{
+.banner, section{
   text-align: center;
 }
 
