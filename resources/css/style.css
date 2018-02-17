@@ -19,7 +19,7 @@ footer {
 }
 
 .banner {
-  background-image: url('../images/the-flatiron-building.png');
+  background-image: url("../images/the-flatiron-building");
 }
 
 a {
@@ -30,10 +30,18 @@ a, .white {
   color: white;
 }
 
-section p {
+p {
   font-size: 14px;
 }
 
 .main {
   font-size: 70px;
+}
+
+.copyright {
+  font-size: 11px;
+}
+
+.process {
+  font-size: 32px;
 }
