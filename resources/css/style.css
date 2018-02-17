@@ -2,11 +2,13 @@ body {
   font-family: Helvetica;
 }
 
-.banner, section{
+header, section{
   text-align: center;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-weight: bold;
 }
 
@@ -17,12 +19,6 @@ h3 {
 footer {
   background-color: dimgray;
   text-align: left;
-}
-
-
-
-.banner {
-  background-image: url("../images/building.png");
 }
 
 a {
@@ -38,14 +34,19 @@ a, .white {
   font-weight: normal;
 }
 
+
+.banner {
+  background-image: url("../images/building.png");
+}
+
 .main {
   font-size: 70px;
 }
 
-.copyright {
-  font-size: 11px;
-}
-
 .process {
   font-size: 32px;
+}
+
+.copyright {
+  font-size: 11px;
 }
